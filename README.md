@@ -1,5 +1,5 @@
 # Universal-hooking/patching
-Can be used in pretty much every il2cpp game, somewhat reliable and quite good!
+Can be used in pretty much every game, somewhat reliable and quite good!
 
 
 usage:
