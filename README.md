@@ -1,19 +1,20 @@
-# IL2CPP-hooking-patching
+# Universal-hooking/patching
 Can be used in pretty much every il2cpp game, somewhat reliable and quite good!
 
 
 usage:
 ```#include "patch.h"
 
-Patch pExample;
+Patch Example;
 
+//Change RVA to ur one
 void EnableBool() {
     BYTE bTrue = 1;
-    pExample.Apply((void*)0x842323, &bTrue, sizeof(bTrue));
+    Example.Apply((void*)0x842323, &bTrue, sizeof(bTrue));
 }
 
 void DisableBool() {
-    pExample.Remove();
+    Example.Remove();
 }
  ```
 
